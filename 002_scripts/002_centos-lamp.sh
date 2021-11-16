@@ -32,6 +32,7 @@ mysql -u root -e "SHOW DATABASES";
 
 # Download Started Content
 cd /vagrant
+yum install -y wget
 sudo -u vagrant wget -q https://raw.githubusercontent.com/flodruid/vagrant/main/001_files/index.html
 sudo -u vagrant wget -q https://github.com/flodruid/vagrant/blob/main/001_files/info.php
 
